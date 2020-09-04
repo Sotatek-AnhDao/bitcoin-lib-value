@@ -12,7 +12,7 @@
     "pub": "npm run build && npm publish"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+    "registry": "https://registry.npmjs.org/"
   },
   "keywords": [
     "bitcoin",
