@@ -1,6 +1,6 @@
 {
   "name": "@sotatek-anhdao/bitcore-lib-value",
-  "version": "8.22.4",
+  "version": "8.22.5",
   "description": "A pure and powerful JavaScript Bitcoin Value library.",
   "author": "BitPay <dev@bitpay.com>",
   "main": "index.js",
