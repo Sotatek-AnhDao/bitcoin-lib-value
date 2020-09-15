@@ -41,7 +41,7 @@ _.extend(livenet, {
   scripthash: 0x05,
   xpubkey:  0x0488b21e,
   xprivkey: 0x0488ade4,
-  port: 8333
+  port: 8339
 });
 
 var testnet = new Network();
@@ -53,6 +53,6 @@ _.extend(testnet, {
   scripthash: 0xc4,
   xpubkey: 0x043587cf,
   xprivkey: 0x04358394,
-  port: 18333
+  port: 18339
 });
 ```
