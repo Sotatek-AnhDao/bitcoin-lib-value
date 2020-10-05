@@ -30,7 +30,7 @@ describe('PublicKeyHashInput', function() {
   };
 
   var witnessOutput = {
-    address: 'bc1q4fyv6yjgj6kjgv5ccnfhqcv0ydft2z6h9xf0xw',
+    address: 'biv1q4fyv6yjgj6kjgv5ccnfhqcv0ydft2z6h9xf0xw',
     txId: '66e64ef8a3b384164b78453fa8c8194de9a473ba14f89485a0e433699daec140',
     outputIndex: 0,
     script: new Script(witnessAddress),

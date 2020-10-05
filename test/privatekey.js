@@ -275,13 +275,13 @@ describe('PrivateKey', function() {
     it('should output this known livenet witness address correctly', function() {
       var privkey = PrivateKey.fromWIF('L3T1s1TYP9oyhHpXgkyLoJFGniEgkv2Jhi138d7R2yJ9F4QdDU2m');
       var address = privkey.toAddress(null, Address.PayToWitnessPublicKeyHash);
-      address.toString().should.equal('bc1qv0t45lutg37ghyg7lg22vgducs3d9hvuarwr89');
+      address.toString().should.equal('biv1qv0t45lutg37ghyg7lg22vgducs3d9hvuarwr89');
     });
 
     it('should output this known testnet witness address correctly', function() {
       var privkey = PrivateKey.fromWIF('cR4qogdN9UxLZJXCNFNwDRRZNeLRWuds9TTSuLNweFVjiaE4gPaq');
       var address = privkey.toAddress(null, Address.PayToWitnessPublicKeyHash);
-      address.toString().should.equal('tb1q363x8lv54fdsywyc9494upd6sp4rg6glhsyzk0');
+      address.toString().should.equal('tbiv1q363x8lv54fdsywyc9494upd6sp4rg6glhsyzk0');
     });
 
     it('creates network specific witness address', function() {

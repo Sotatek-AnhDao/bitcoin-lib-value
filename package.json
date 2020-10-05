@@ -1,6 +1,6 @@
 {
   "name": "@sotatek-anhdao/bitcore-lib-value",
-  "version": "8.22.7",
+  "version": "8.22.8",
   "description": "A pure and powerful JavaScript Bitcoin Value library.",
   "author": "BitPay <dev@bitpay.com>",
   "main": "index.js",
@@ -15,7 +15,7 @@
     "registry": "https://registry.npmjs.org/"
   },
   "keywords": [
-    "bitcoin",
+    "bivcoin",
     "transaction",
     "address",
     "p2p",
@@ -32,7 +32,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Sotatek-AnhDao/bitcoin-lib-value.git"
+    "url": "https://github.com/Sotatek-AnhDao/bitcoin-lib-value.git"
   },
   "browser": {
     "request": "browser-request"
@@ -60,9 +60,5 @@
     "doc": "docs",
     "lib": "lib",
     "test": "test"
-  },
-  "bugs": {
-    "url": "https://github.com/Sotatek-AnhDao/bitcoin-lib-value/issues"
-  },
-  "homepage": "https://github.com/Sotatek-AnhDao/bitcoin-lib-value#readme"
+  }
 }

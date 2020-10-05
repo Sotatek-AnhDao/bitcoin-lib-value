@@ -1,14 +1,16 @@
-# Bitcore Lib
+# Bitcore Lib Value
 
-[![NPM Package](https://img.shields.io/npm/v/bitcore-lib.svg?style=flat-square)](https://www.npmjs.org/package/bitcore-lib)
-[![Build Status](https://img.shields.io/travis/bitpay/bitcore-lib.svg?branch=master&style=flat-square)](https://travis-ci.org/bitpay/bitcore-lib)
-[![Coverage Status](https://img.shields.io/coveralls/bitpay/bitcore-lib.svg?style=flat-square)](https://coveralls.io/r/bitpay/bitcore-lib)
+[![NPM Package](https://img.shields.io/npm/v/@sotatek-anhdao/bitcore-lib-value.svg?style=flat-square)](https://www.npmjs.com/package/@sotatek-anhdao/bitcore-lib-value)
 
 **A pure and powerful JavaScript Bitcoin *Value* library.**
-// TO-DO: update doc
+
 ## Principles
 
-Bitcoin Value is another powerful new peer-to-peer platform for the next generation of financial technology. The decentralized nature of the Bitcoin network allows for highly resilient bitcoin infrastructure, and the developer community needs reliable, open-source tools to implement bitcoin apps and services.
+Bitcoin Value is another powerful peer-to-peer platform for the next generation of financial technology. The decentralized nature of the Bitcoin network allows for highly resilient bitcoin infrastructure, and the developer community needs reliable, open-source tools to implement bitcoin apps and services.
+
+## Bitcoin Value changes
+
+!!!TO-DO
 
 ## Get Started
 
@@ -16,8 +18,13 @@ Bitcoin Value is another powerful new peer-to-peer platform for the next generat
 npm install bitcore-lib-value
 ```
 
-```sh
-bower install bitcore-lib-value
+Adding Bitcore Value to your app's `package.json`:
+
+```json
+"dependencies": {
+  "bitcore-lib-value": "^8.22.7",
+  ...
+}
 ```
 
 ## Documentation
